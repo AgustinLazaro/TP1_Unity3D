@@ -108,7 +108,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -136,7 +136,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -153,5 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90cd422559cba0b4abc630ce5f3f9a2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Granada
-  radioExplosion: 5
-  danioExplosion: 50
+  launchSound: {fileID: 8300000, guid: 8a95c6080ed59b7418da4dec6e51ffeb, type: 3}
+  explosionSound: {fileID: 8300000, guid: aa1f8a8c45fcd5542b13ae42d05743bb, type: 3}
+  explosionRadius: 5
+  travelSpeed: 15
